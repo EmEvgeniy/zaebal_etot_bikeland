@@ -1,0 +1,16 @@
+.HeaderBottom {
+	background-color: #000;
+	width: 100%;
+	position: sticky;
+	top: 0;
+	z-index: 5;
+}
+@media (max-width: 768px) {
+	.HeaderBottom {
+		background-color: #000;
+		width: 100%;
+		position: sticky;
+		top: 59px;
+		z-index: 5;
+	}
+}

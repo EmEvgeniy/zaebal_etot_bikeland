@@ -1,0 +1,48 @@
+.Card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 10px;
+	background: #fff;
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+	width: 100%;
+	max-width: 290px;
+	position: relative;
+	user-select: none;
+	cursor: pointer;
+}
+
+.Card .top {
+	width: 100%;
+	height: 200px;
+}
+
+.Card .top img {
+	width: 100%;
+	height: 200px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	object-fit: cover;
+}
+
+.Card .bottom {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 10px;
+	padding: 20px 10px;
+}
+
+.Card .bottom .title {
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.Card .bottom .text {
+	font-size: 15px;
+	line-height: 1.3;
+	height: 70px;
+	overflow: hidden;
+	padding: 10px 0;
+}

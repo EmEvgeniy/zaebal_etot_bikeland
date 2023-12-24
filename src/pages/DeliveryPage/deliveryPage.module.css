@@ -1,0 +1,35 @@
+.DiliveryPage {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	width: 100%;
+	gap: 50px;
+	padding: 40px 0;
+}
+.DiliveryPage h1 {
+	font-size: 30px;
+	text-align: center;
+}
+.DiliveryPage p {
+	text-align: center;
+	text-wrap: balance;
+	padding: 0 20px;
+}
+.photos {
+	width: 100%;
+}
+.inner {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	align-items: center;
+	justify-items: center;
+	gap: 20px;
+	width: 100%;
+}
+.inner img {
+	width: 300px;
+	height: 300px;
+	border-radius: 10px;
+	object-fit: cover;
+}
